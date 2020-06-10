@@ -1,0 +1,194 @@
+
+.mainheader {
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+.copyarea {
+    
+    color:white;
+    position: relative;
+}
+.copy{
+    
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+}
+.copy h5{
+    line-height: 30px;
+}
+
+header{
+    background-color:#2bb2ec;
+    width: 100%;
+    height: 70%;
+    background:url('sea.jpg') no-repeat;
+    background-position: center;
+}
+.underline{
+    background: linear-gradient(transparent 80%, yellow 10%);
+}
+.box {
+    text-align: right;
+}
+.needs{
+    margin: 80px 50px;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.needs li{
+    font-size: 20px ;
+}
+.needs ul{
+    padding: 0;
+}
+.about{
+    padding: 100px 50px ;
+    font-size: 30px;
+    background-color: rgb(242, 246,248);
+    background-position-x: 0%;
+    background-position-y: 0%;
+
+}
+.about p {
+    margin: 0 0;
+    font-family: "Yugothic";
+    font-size: 20px;
+}
+.function_area li{
+    list-style-type: none;
+    color: black;/*文字色*/
+    background: #FFF;
+    border: solid 1px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    
+}
+section.function
+.function_inner
+.function_area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    
+}
+section.function
+.function_inner
+.function_area
+.function_box{
+    width: 30%;
+    text-align: center;
+    margin: 0 0 20px;
+    
+}
+.function_name{
+    padding-top: 0;
+}
+.section_tit{
+    font-size: 38px;
+    margin: 0 0 10px 0;
+}
+.tit_box{
+    margin: 50px;
+    
+}
+.function_area{
+padding-inline-start: 0;
+}
+.function_inner{
+    padding: 50px 0 50px 0;
+}
+.step{
+    background-color: rgb(242, 246,248);
+    padding:50px 0 50px 0 ; 
+}
+.step li{
+    list-style-type: none;
+}
+section.step
+.step_innner
+.step_area{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+    -webkit-box-align: center;
+    align-items: center;
+}
+section.step
+.step_innner
+.step_area.step_box{
+    width: 270px;
+    margin: 0 0 30px;
+}
+.step_label{
+    width: 270px;
+    height: 34px;
+    color: white;
+    background-color: royalblue;
+    padding: 8px 0 0 15px;
+}
+.arrow img{
+    width: 100px;
+}
+.step_tit{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 10px;
+}
+.plan_read{
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.plan{
+    width: 1000px;
+}
+.plan_inner{
+    width: 480px;
+    text-align: center;
+    background: deepskyblue;
+    padding: 0 0 30px;
+    position: relative;
+    color: white;
+    margin-right: 50%;
+}
+.plan_area{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.plan_box{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;    
+}
+.price{
+    font-size: 40px;
+    height: 50px;
+    line-height: 0.6;
+    margin: 10px 0 0 0;
+}
+.min_price{
+    font-size: 18px;
+}
+.price span{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.month_box {
+    border-color:white;
+    border-width:3px;
+    border-bottom: medium solid;
+    margin: 30px 30px;
+    padding: 10px;
+}
